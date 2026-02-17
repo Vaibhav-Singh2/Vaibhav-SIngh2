@@ -1,14 +1,17 @@
-<h1 align="center">Hey 👋 What's Up?</h1>
-<h3 align="center">I'm Vaibhav Singh — Full Stack Developer | MERN | Next.js | React Native</h3>
-
-###
+<h1 align="center">Vaibhav Singh</h1>
+<h3 align="center">Full Stack Developer | Backend-Focused Engineer | DevOps</h3>
 
 <p align="center">
-  🚀 Passionate about building scalable web and mobile apps using <b>React, Next.js, Node.js</b>, and <b>React Native</b>.  
-  I love working on full-stack projects, API development, and cloud deployment with <b>modern DevOps practices</b>.  
+  Open to <b>Full Stack / Backend Engineer</b> roles (India / Remote).  
+  I build production-grade web platforms using <b>Next.js, Node.js, TypeScript, MongoDB, Redis, Docker, and AWS</b>.
+</p>
+
+<p align="center">
+  <b>Available for interviews and full-time opportunities.</b>
 </p>
 
 <div align="center">
+  <a href="https://drive.google.com/file/d/1qu8EdqezS16O354El1y1QRM80c7AA9F-/view?usp=sharing" target="_blank"><img src="https://img.shields.io/static/v1?message=Resume&logo=readme&color=6A5ACD&style=for-the-badge" height="28" /></a>
   <a href="https://vaibhav-fullstack-dev.vercel.app" target="_blank"><img src="https://img.shields.io/static/v1?message=Portfolio&logo=googlechrome&color=4285F4&style=for-the-badge" height="28" /></a>
   <a href="https://www.linkedin.com/in/vaibhav-singh-o-o" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&style=for-the-badge" height="28" /></a>
   <a href="https://github.com/Vaibhav-Singh2" target="_blank"><img src="https://img.shields.io/static/v1?message=GitHub&logo=github&color=181717&style=for-the-badge" height="28" /></a>
@@ -18,72 +21,87 @@
 
 ---
 
-### 📊 GitHub Stats
+### 🚀 Summary
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Vaibhav-Singh2&theme=dracula&hide_border=false&border_radius=5" height="160" alt="streak graph" />
-  <img src="https://github-profile-trophy.vercel.app/?username=Vaibhav-Singh2&theme=dracula&no-frame=false&no-bg=false&margin-w=8&margin-h=8" height="160" alt="trophy graph" />
-</div>
+- 1.5+ years building scalable full-stack products with strong backend and deployment ownership.
+- Built and maintained systems handling **500+ daily report-generation requests** and **1,000+ daily API requests**.
+- Delivered production pipelines with **Docker + GitHub Actions + AWS EC2**, achieving **zero-downtime releases** and **99.9% uptime**.
 
 ---
 
-### 🛠️ Tech Stack
+### 🏆 Top Achievements
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,html,css,nodejs,express,mongodb,redis,aws,docker,git,github,firebase,postman" height="100" />
-  <br />
-</div>
+- Improved backend throughput by **40%** using BullMQ + Redis based asynchronous job processing.
+- Reduced API response time by **50%** through MongoDB optimization and Redis caching.
+- Built and shipped **30+ secure REST APIs** powering production booking, payment, and user workflows.
 
 ---
 
 ### 💼 Experience
 
-#### 🧩 Full Stack Developer – MaxFate Consulting _(Remote, Part-time)_
+#### Full Stack Developer — MaxFate Private Limited _(Jun 2025 – Present)_
 
-_June 2025 – Present_
+- Architected and deployed a Node.js/Bun backend with OpenAI integration for personalized report/PDF generation handling **500+ requests/day**.
+- Built CI/CD pipelines on AWS EC2 using Docker and GitHub Actions, enabling **zero-downtime deployment** and **99.9% uptime**.
+- Implemented asynchronous job processing with BullMQ + Redis, improving throughput by **40%**.
+- Developed JWT-secured REST APIs and integrated Razorpay + Zoho CRM for automated workflows.
 
-- Building scalable SaaS web apps with **Next.js, Node.js, MongoDB, and Docker**
-- Implementing CI/CD pipelines with **GitHub Actions** and AWS EC2
-- Writing reusable UI components & optimizing performance
+#### Full Stack Intern — Vize _(Oct 2024 – Jun 2025)_
 
-#### 💻 Full Stack Intern – Vize _(Hybrid)_
+- Designed and deployed **30+ secure REST APIs** for a consultation platform with **200+ active users** and **1,000+ daily requests**.
+- Managed AWS EC2 deployment with Docker and CI/CD automation using GitHub Actions.
+- Improved API performance by **50%** through MongoDB query optimization and Redis caching.
 
-_Oct 2024 – Jun 2025_
+#### Software Developer — Cyberonites Club _(Jul 2024 – Nov 2024)_
 
-- Developed a **consultation platform (web & mobile)** with 220+ active users
-- Integrated **Razorpay**, **Firebase Auth**, and **Agora SDK**
-- Created 30+ secure REST APIs and implemented **JWT authentication**
-
-#### 🌐 Software Developer – Cyberonites Club
-
-_Jul 2024 – Mar 2025_
-
-- Built and deployed the official **club website** using Next.js & Tailwind CSS
-- Contributed to internal tools and collaborated using GitHub
+- Built and deployed the official club website using Next.js + TypeScript with responsive, mobile-first UI.
+- Collaborated through Git/GitHub workflows across **30+ commits and pull requests**.
 
 ---
 
-### 📚 Projects
+### 📚 Featured Projects
 
-🔹 **Consultation Platform (Next.js + Firebase + Node.js)**  
-Booking system for expert sessions via chat and call with payments, dashboards, and auth.
+#### AI-Powered Personalized Report Platform
 
-🔹 **Consultation Mobile App (React Native + Appwrite + Agora)**  
-Cross-platform app with real-time video calls, Razorpay payments & push notifications.
+**Next.js + Express.js + TypeScript + MongoDB + Redis + BullMQ + AWS**
 
-🔹 **MySa Music (React + Electron)**  
-Desktop music player using YouTube integration — modern UI and custom media controls.
+- Built a multi-service SaaS platform with queue-based background processing for AI report generation and delivery.
+- Processed **500+ personalized report requests/day** with reliable queue orchestration and retry logic.
+- Implemented resilient Razorpay payment and webhook verification flows with reconciliation handling.
+- Added secure API-key protected generation service with retry/backoff logic and production observability (Winston + CloudWatch).
 
-🔹 **Cyberonites Club Website (Next.js + Tailwind)**  
-Responsive and optimized website for a college technical club.
+#### Expert Consultation Platform
+
+**Next.js + Node.js + Express.js + MongoDB + Redis + Razorpay**
+
+- Developed end-to-end consultation system with booking workflows, auth, payment processing, and admin dashboard.
+- Designed backend architecture with **30+ APIs**, optimized schema/indexing, and Redis caching to reduce response times by **50%**.
+- Deployed production workloads on AWS EC2 with Dockerized services and CI/CD.
+
+---
+
+### 🛠️ Technical Skills
+
+- **Frontend:** React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux Toolkit
+- **Backend:** Node.js, Bun, Express.js, REST APIs, WebSockets, BullMQ, Webhooks
+- **Database:** MongoDB, Redis, MySQL, Prisma ORM, query optimization, indexing
+- **Cloud & DevOps:** AWS (EC2, S3, IAM, VPC, CloudWatch), Docker, Nginx, GitHub Actions, CI/CD, Linux
+- **Security:** JWT, OAuth2, API key auth, OWASP-aware backend practices
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Vaibhav-Singh2&theme=dracula&hide_border=false&border_radius=5" height="160" alt="streak graph" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vaibhav-Singh2&theme=dracula" height="160" alt="github stats" />
+</div>
 
 ---
 
 ### 🏅 Certifications
 
-- **Full Stack Development with MERN** – Cisco thingQbator @ IIT BHU
-- **React & Redux** – Complete Coding by Prashant Sir
-- **Introduction to MongoDB** – MongoDB University
-- **Internship Certificate (Vize)** – React Native, Next.js, MERN, TypeScript
-
----
+- Full Stack Development (MERN) — Cisco thingQbator @ IIT BHU
+- React & Redux — Complete Coding
+- Introduction to MongoDB — MongoDB University
+- App Developer Internship — Vize
