@@ -1,13 +1,14 @@
 <h1 align="center">Vaibhav Singh</h1>
-<h3 align="center">Full Stack Developer | Backend-Focused Engineer | DevOps</h3>
+
+<h3 align="center">Full Stack Developer | Backend Engineer | DevOps</h3>
 
 <p align="center">
   Open to <b>Full Stack / Backend Engineer</b> roles (India / Remote).  
-  I build production-grade web platforms using <b>Next.js, Node.js, TypeScript, MongoDB, Redis, Docker, and AWS</b>.
+  I build production-grade web and mobile platforms using <b>Next.js, Node.js, TypeScript, MongoDB, Redis, Docker, AWS, and React Native</b>.
 </p>
 
 <p align="center">
-  <b>Available for interviews and full-time opportunities.</b>
+  <b>Available for freelance, contract, and full-time opportunities.</b>
 </p>
 
 <div align="center">
@@ -23,70 +24,79 @@
 
 ### 🚀 Summary
 
-- 1.5+ years building scalable full-stack products with strong backend and deployment ownership.
-- Built and maintained systems handling **500+ daily report-generation requests** and **1,000+ daily API requests**.
-- Delivered production pipelines with **Docker + GitHub Actions + AWS EC2**, achieving **zero-downtime releases** and **99.9% uptime**.
+Full-stack developer with 1.5+ years of production experience building and shipping end-to-end web and mobile applications — from React.js/Next.js frontends and React Native mobile apps to scalable Node.js backends, cloud infrastructure, and developer tooling. Delivered measurable results across the full stack: 50% API latency reduction at Vize (P95: 800ms → 480ms), AI report infrastructure at MaxFate handling 500+ daily requests at 99.9% uptime, and a 35% lift in user engagement through SSR and SEO optimization. Most recently shipped an open-source CLI (create-saas-app-cli) to scaffold production SaaS monorepos faster.
 
 ---
 
 ### 🏆 Top Achievements
 
-- Improved backend throughput by **40%** using BullMQ + Redis based asynchronous job processing.
-- Reduced API response time by **50%** through MongoDB optimization and Redis caching.
+- Improved backend throughput by **40%** using BullMQ + Redis based asynchronous job processing at MaxFate.
+- Reduced API response time by **50%** through MongoDB optimization and Redis caching at Vize.
 - Built and shipped **30+ secure REST APIs** powering production booking, payment, and user workflows.
+- Achieved **99.9% uptime** and **zero-downtime releases** with Docker + GitHub Actions CI/CD on AWS EC2.
+- Increased user engagement by **35%** through SSR and SEO optimization on Next.js frontend.
 
 ---
 
-### 💼 Experience
+### 💼 Professional Experience
 
-#### Full Stack Developer — MaxFate Private Limited _(Jun 2025 – Present)_
+#### Full Stack Developer — MaxFate Private Limited _(June 2025 – Present)_
 
-- Architected and deployed a Node.js/Bun backend with OpenAI integration for personalized report/PDF generation handling **500+ requests/day**.
-- Built CI/CD pipelines on AWS EC2 using Docker and GitHub Actions, enabling **zero-downtime deployment** and **99.9% uptime**.
-- Implemented asynchronous job processing with BullMQ + Redis, improving throughput by **40%**.
-- Developed JWT-secured REST APIs and integrated Razorpay + Zoho CRM for automated workflows.
+- Architected Node.js/Bun backend with OpenAI integration for automated AI report and PDF generation, processing 500+ daily requests; achieved 99.9% uptime tracked via AWS CloudWatch.
+- Reduced job queue latency by 40% (measured via BullMQ metrics) by implementing asynchronous processing with BullMQ and Redis, replacing synchronous API calls.
+- Built and maintained Docker + GitHub Actions CI/CD pipeline on AWS EC2, enabling zero-downtime releases across all production deployments.
+- Led Next.js/TypeScript frontend with SSR and SEO optimization; integrated GA4 and Meta Conversions API (CAPI) for full attribution tracking, increasing measured user engagement by 35%.
+- Integrated Razorpay payment gateway and Zoho CRM with UTM attribution and duplicate prevention logic, automating end-to-end lead-to-payment workflows.
 
-#### Full Stack Intern — Vize _(Oct 2024 – Jun 2025)_
+#### App Developer (React Native & MERN) — Vize _(October 2024 – June 2025)_
 
-- Designed and deployed **30+ secure REST APIs** for a consultation platform with **200+ active users** and **1,000+ daily requests**.
-- Managed AWS EC2 deployment with Docker and CI/CD automation using GitHub Actions.
-- Improved API performance by **50%** through MongoDB query optimization and Redis caching.
-
-#### Software Developer — Cyberonites Club _(Jul 2024 – Nov 2024)_
-
-- Built and deployed the official club website using Next.js + TypeScript with responsive, mobile-first UI.
-- Collaborated through Git/GitHub workflows across **30+ commits and pull requests**.
+- Designed and deployed 30+ RESTful APIs using Node.js, Express.js, and MongoDB, handling 1,000+ daily requests for a consultation platform serving 200+ active users.
+- Reduced P95 API response time from 800ms to 480ms (50%) by optimizing MongoDB schemas with Mongoose ORM and layering Redis caching on hot query paths.
+- Implemented JWT and OAuth2 authentication flows securing 200+ user accounts; added Firebase Auth with Google OAuth and phone OTP for cross-platform login.
+- Integrated Razorpay payment gateway processing 100+ monthly transactions, with webhook verification, order reconciliation, and automated invoice generation.
+- Built and shipped cross-platform React Native mobile app (iOS & Android) with Redux Toolkit state management, shared authentication flow (Google OAuth2, phone OTP, JWT), and 15+ screens covering booking, consultation history, and user profile; deployed to both platforms with a single codebase alongside the React.js web client.
 
 ---
 
-### 📚 Featured Projects
+### 📚 Projects
 
-#### AI-Powered Personalized Report Platform
+#### AI-Powered Personalized Report Platform · Next.js, Node.js, TypeScript, MongoDB, Redis, BullMQ, AWS
 
-**Next.js + Express.js + TypeScript + MongoDB + Redis + BullMQ + AWS**
+- Built multi-service SaaS platform with Next.js frontend and Express.js/TypeScript API; BullMQ workers handle automated multi-language AI report generation with 500+ daily requests and 99.9% uptime.
+- Integrated Razorpay (webhook verification, order reconciliation) and Zoho CRM with UTM attribution; deployed report hosting on Cloudflare R2 with structured logging via Winston and AWS CloudWatch.
+- Implemented GA4 and Meta Conversions API (CAPI) for full attribution integrity; SSR and SEO optimization on Next.js frontend increased measured user engagement by 35%.
+- Designed modular OpenAI prompt pipeline with per-user context injection, enabling multi-language report generation (English, Hindi) with consistent formatting across 10+ report types.
+- Architected multi-environment deployment strategy on AWS EC2 with environment-specific Secrets Manager configs and CloudWatch alarms, cutting mean time to detect (MTTD) production anomalies from hours to under 5 minutes.
 
-- Built a multi-service SaaS platform with queue-based background processing for AI report generation and delivery.
-- Processed **500+ personalized report requests/day** with reliable queue orchestration and retry logic.
-- Implemented resilient Razorpay payment and webhook verification flows with reconciliation handling.
-- Added secure API-key protected generation service with retry/backoff logic and production observability (Winston + CloudWatch).
+#### Drone & Aero E-Commerce Platform · Next.js, TypeScript, Prisma, MongoDB, Razorpay, Clerk, Vercel Blob
 
-#### Expert Consultation Platform
+- Built full-stack e-commerce platform with separate customer storefront and admin dashboard; complete shopping journey — category browsing, cart, checkout, and account management via Next.js App Router, Tailwind CSS, and Radix UI.
+- Designed scalable Prisma + MongoDB schema (users, products, variants, orders, cart, addresses, reviews); integrated Razorpay end-to-end with order creation, signature verification, and webhook-driven payment status updates.
+- Implemented Clerk auth with JWT-based admin middleware; integrated Vercel Blob Storage for media uploads; built custom service modules for repair and 3D printing orders with quote-request lifecycle tracking.
+- Built real-time admin dashboard with order management, inventory tracking, and analytics views; implemented server-side pagination and filtering for product catalogs handling 500+ SKUs efficiently.
+- Optimized Prisma query performance with selective field projection and compound indexes, reducing average dashboard load time by 30% under concurrent admin sessions.
 
-**Next.js + Node.js + Express.js + MongoDB + Redis + Razorpay**
+#### create-saas-app-cli · Node.js, TypeScript, Turborepo, BullMQ, Drizzle, Prisma, Mongoose, Docker
 
-- Developed end-to-end consultation system with booking workflows, auth, payment processing, and admin dashboard.
-- Designed backend architecture with **30+ APIs**, optimized schema/indexing, and Redis caching to reduce response times by **50%**.
-- Deployed production workloads on AWS EC2 with Dockerized services and CI/CD.
+- Published open-source CLI tool on npm (npx create-saas-app-cli) that scaffolds a production-ready Multi-Tenant SaaS Turborepo monorepo in seconds; 147kB unpacked across 23 files.
+- Supports interactive prompts for 4 database/ORM combinations (PostgreSQL + Drizzle, PostgreSQL + Prisma, MongoDB - Mongoose, SQLite + Drizzle), 3 package managers (bun, pnpm, npm), and optional BullMQ worker, Redis-backed rate limiting, JWT auth, and Prometheus + Grafana observability stack.
+- Generates a structured monorepo with shared packages for config, database, logger, auth, queue, redis, and TypeScript types; includes optional GitHub Actions CI/CD workflow and Docker Compose infrastructure out of the box.
 
 ---
 
 ### 🛠️ Technical Skills
 
-- **Frontend:** React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux Toolkit
-- **Backend:** Node.js, Bun, Express.js, REST APIs, WebSockets, BullMQ, Webhooks
-- **Database:** MongoDB, Redis, MySQL, Prisma ORM, query optimization, indexing
-- **Cloud & DevOps:** AWS (EC2, S3, IAM, VPC, CloudWatch), Docker, Nginx, GitHub Actions, CI/CD, Linux
-- **Security:** JWT, OAuth2, API key auth, OWASP-aware backend practices
+**Core Stack:** Node.js · React.js · Next.js · TypeScript · MongoDB · Redis · AWS · Docker · Express.js · React Native
+
+**Backend & APIs:** Bun, RESTful API Design, API Versioning, WebSocket, Microservices Architecture, BullMQ, Webhook Handling, Background Job Processing
+
+**Frontend & Mobile:** JavaScript (ES6+), Redux Toolkit, Tailwind CSS, Radix UI, React Hook Form, Zod, HTML5, CSS3, SSR, Responsive Design
+
+**Cloud & DevOps:** AWS (EC2, S3, IAM, VPC, CloudWatch, Secrets Manager), Cloudflare R2, Vercel Blob, Kubernetes, Nginx, GitHub Actions, CI/CD Pipelines, Git, Linux, SSH
+
+**Databases:** MongoDB (Aggregation Pipeline, Indexing, Sharding, Replica Sets), Redis (Caching, Pub/Sub, Rate Limiting), MySQL, Prisma ORM, Mongoose ORM, Query Optimization
+
+**Auth & Security:** JWT, OAuth2, Firebase Auth, Clerk, API Key Authentication, OWASP Top 10, Input Validation
 
 ---
 
@@ -101,7 +111,12 @@
 
 ### 🏅 Certifications
 
-- Full Stack Development (MERN) — Cisco thingQbator @ IIT BHU
-- React & Redux — Complete Coding
-- Introduction to MongoDB — MongoDB University
-- App Developer Internship — Vize
+- Full Stack Development (MERN) – Cisco thingQbator @ IIT BHU
+- React & Redux Certification – Complete Coding
+
+---
+
+### 🎓 Education
+
+**Bachelor of Computer Applications (BCA) – Computer Science**  
+GLA University Mathura, Uttar Pradesh (2023 – 2026)
