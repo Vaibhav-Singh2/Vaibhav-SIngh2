@@ -12,7 +12,7 @@
 </p>
 
 <div align="center">
-  <a href="https://drive.google.com/file/d/1qu8EdqezS16O354El1y1QRM80c7AA9F-/view?usp=sharing" target="_blank"><img src="https://img.shields.io/static/v1?message=Resume&logo=readme&color=6A5ACD&style=for-the-badge" height="28" /></a>
+  <a href="https://drive.google.com/file/d/1nTsXjWWbCExkHhC9kSZB_Ow9EWKmVEk1/view?usp=sharing" target="_blank"><img src="https://img.shields.io/static/v1?message=Resume&logo=readme&color=6A5ACD&style=for-the-badge" height="28" /></a>
   <a href="https://vaibhav-fullstack-dev.vercel.app" target="_blank"><img src="https://img.shields.io/static/v1?message=Portfolio&logo=googlechrome&color=4285F4&style=for-the-badge" height="28" /></a>
   <a href="https://www.linkedin.com/in/vaibhav-singh-o-o" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&style=for-the-badge" height="28" /></a>
   <a href="https://github.com/Vaibhav-Singh2" target="_blank"><img src="https://img.shields.io/static/v1?message=GitHub&logo=github&color=181717&style=for-the-badge" height="28" /></a>
